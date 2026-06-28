@@ -1,0 +1,19 @@
+/* =========================================================
+   HyperGrok-UI v1.0
+   Improves Grok prompt box width and height
+   ========================================================= */
+
+/* 1. Make the input bar full width */
+.relative.flex-1.min-w-0.max-w-3xl {
+    max-width: 100% !important;
+}
+
+.flex.flex-row.items-end.justify-center.w-full.max-w-4xl {
+    max-width: 100% !important;
+}
+
+/* 2. Increase prompt expansion height and improve scrolling */
+.ProseMirror {
+    max-height: 420px !important;
+    overflow-y: auto !important;
+}

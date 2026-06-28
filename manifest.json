@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "HyperGrok-UI",
+  "version": "1.0",
+  "description": "Expands Grok's prompt box to full width and increases input height for easier long-prompt editing.",
+  "content_scripts": [
+    {
+      "matches": ["*://grok.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
